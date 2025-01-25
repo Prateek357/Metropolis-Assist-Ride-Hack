@@ -1,0 +1,51 @@
+/* Add this CSS to your existing CSS file or create a new one */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url() no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    width: 400px; /* Increase the width */
+    height: 400px; /* Increase the height */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #18181c;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 48px; /* Increase the font size */
+    border-bottom: 6px solid #19191f; /* Increase the border size */
+    margin-bottom: 40px; /* Increase the margin */
+    padding: 16px; /* Increase the padding */
+}
+
+.button-options {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px; /* Increase the padding */
+    color: #ffffff;
+    background: none #17171b;
+    border: none;
+    border-radius: 8px; /* Increase the border radius */
+    font-size: 24px; /* Increase the font size */
+    cursor: pointer;
+    margin: 16px 20px; /* Increase the margin */
+    text-decoration: none;
+    width: 60%;
+}
+
+.button:hover {
+    background-color: #27272b;
+}
